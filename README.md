@@ -90,10 +90,4 @@ Outside of work I maintain a personal development ecosystem called **Jersal**, b
 
 Infrastructure is fully managed with **Terraform**, deployed through **GitHub Actions** using **OIDC** (zero stored credentials), with isolated state backends per concern.
 
----
 
-### GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Jeqqe&hide_border=true" alt="GitHub Streak" />
-</p>
