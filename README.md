@@ -6,16 +6,6 @@
   Turku, Finland
 </p>
 
-<p align="center">
-  <a href="https://github.com/Jeqqe?tab=repositories">
-    <img src="https://img.shields.io/badge/Repos-20-blue?style=flat-square&logo=github" />
-  </a>
-  <a href="https://github.com/Jeqqe?tab=followers">
-    <img src="https://img.shields.io/github/followers/Jeqqe?style=flat-square&logo=github&label=Followers" />
-  </a>
-  <img src="https://komarev.com/ghpvc/?username=Jeqqe&style=flat-square&color=blue" alt="Profile views" />
-</p>
-
 ---
 
 ### About me
@@ -71,28 +61,20 @@ const jere = {
 
 ### Featured Project
 
-<table>
-  <tr>
-    <td width="80" align="center">
-      <img src="https://img.shields.io/badge/🍽️-MenuLoft-blue?style=for-the-badge" />
-    </td>
-    <td>
-      <strong><a href="https://menuloft.app">MenuLoft</a></strong><br/>
-      SaaS platform for restaurants to manage digital menus centrally, sync updates instantly to QR codes, and embed menus on websites.<br/><br/>
-      <img src="https://img.shields.io/badge/Next.js-000?style=flat-square&logo=nextdotjs&logoColor=white" />
-      <img src="https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black" />
-      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-      <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
-      <img src="https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white" />
-      <img src="https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white" />
-      <img src="https://img.shields.io/badge/Vercel-000?style=flat-square&logo=vercel&logoColor=white" />
-      <img src="https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white" />
-      <img src="https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white" />
-      <br/><br/>
-      <strong>Highlights:</strong> timezone-aware menu scheduling, static QR with live data, three-tier RBAC, built-in privacy-friendly analytics, hybrid cloud (Vercel + Azure), embeddable menu widget, 230+ automated tests, planning-first workflow with CI enforcement.
-    </td>
-  </tr>
-</table>
+**[MenuLoft](https://menuloft.app)** — Digital menu management SaaS for multi-location restaurants. Create menus, sync to QR codes, embed on websites, schedule with timezone-aware rules, and manage teams with role-based access.
+
+<p>
+  <img src="https://img.shields.io/badge/Next.js_16-000?style=flat-square&logo=nextdotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS_4-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white" />
+  <img src="https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white" />
+  <img src="https://img.shields.io/badge/Vercel-000?style=flat-square&logo=vercel&logoColor=white" />
+  <img src="https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white" />
+  <img src="https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white" />
+</p>
 
 ---
 
@@ -102,9 +84,9 @@ Outside of work I maintain a personal development ecosystem called **Jersal**, b
 
 | Repository | Purpose |
 |---|---|
-| **jersal-projects-core** | Shared Azure infrastructure (PostgreSQL, RBAC), portfolio site, documentation hub |
-| **jersal-project-template** | Standardized project scaffolding with planning-first workflow and CI templates |
-| **jersal-menuloft** | MenuLoft SaaS application |
+| **[jersal-projects-core](https://github.com/Jeqqe/jersal-projects-core)** | Shared Azure infrastructure (PostgreSQL, RBAC), portfolio site, documentation hub |
+| **[jersal-project-template](https://github.com/Jeqqe/jersal-project-template)** | Standardized project scaffolding with planning-first workflow and CI templates |
+| **[jersal-menuloft](https://github.com/Jeqqe/jersal-menuloft)** | MenuLoft SaaS application |
 
 Infrastructure is fully managed with **Terraform**, deployed through **GitHub Actions** using **OIDC** (zero stored credentials), with isolated state backends per concern.
 
@@ -113,14 +95,5 @@ Infrastructure is fully managed with **Terraform**, deployed through **GitHub Ac
 ### GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Jeqqe&show_icons=true&theme=default&hide_border=true&count_private=true" alt="GitHub Stats" height="170" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jeqqe&layout=compact&hide_border=true&count_private=true&langs_count=8" alt="Top Languages" height="170" />
-</p>
-
-<p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Jeqqe&hide_border=true" alt="GitHub Streak" />
-</p>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Jeqqe&theme=flat&no-frame=true&column=6&margin-w=15" alt="Trophies" />
 </p>
