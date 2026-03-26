@@ -1,7 +1,7 @@
 <h1 align="center">Jere Salonen</h1>
 
 <p align="center">
-  <a href="https://jersal.net">jersal.net</a> &middot;
+  <a href="https://www.jersal.net">jersal.net</a> &middot;
   <a href="https://www.linkedin.com/in/jeresalonen/">LinkedIn</a> &middot;
   Turku, Finland
 </p>
@@ -20,7 +20,7 @@ const jere = {
   },
   architecture: ["IaC", "shared infra", "independent deploys", "planning-first workflows"],
   currently: "Building MenuLoft, a SaaS platform for restaurant digital menu management",
-  portfolio: "https://jersal.net",
+  portfolio: "https://www.jersal.net",
 };
 ```
 
