@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://jersal.net">jersal.net</a> &middot;
-  <a href="https://www.linkedin.com/in/jere-salonen/">LinkedIn</a> &middot;
+  <a href="https://www.linkedin.com/in/jeresalonen/">LinkedIn</a> &middot;
   Turku, Finland
 </p>
 
