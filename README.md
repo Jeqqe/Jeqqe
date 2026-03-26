@@ -86,7 +86,7 @@ Outside of work I maintain a personal development ecosystem called **Jersal**, b
 |---|---|
 | **[jersal-projects-core](https://github.com/Jeqqe/jersal-projects-core)** | Shared Azure infrastructure (PostgreSQL, RBAC), portfolio site, documentation hub |
 | **[jersal-project-template](https://github.com/Jeqqe/jersal-project-template)** | Standardized project scaffolding with planning-first workflow and CI templates |
-| **[jersal-menuloft](https://github.com/Jeqqe/jersal-menuloft)** | MenuLoft SaaS application |
+| **jersal-menuloft** | MenuLoft SaaS application |
 
 Infrastructure is fully managed with **Terraform**, deployed through **GitHub Actions** using **OIDC** (zero stored credentials), with isolated state backends per concern.
 
