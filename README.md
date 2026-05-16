@@ -2,92 +2,51 @@
 
 <p align="center">
   <a href="https://www.jersal.net">jersal.net</a> &middot;
-  <a href="https://www.linkedin.com/in/jeresalonen/">LinkedIn</a> &middot;
-  Turku, Finland
+  <a href="https://www.linkedin.com/in/jeresalonen/">LinkedIn</a>
 </p>
 
 ---
 
 ### About me
 
-```typescript
-const jere = {
-  location: "Turku, Finland",
-  roles: ["Full-Stack Developer", "Infrastructure Engineer"],
-  experience: {
-    professional: "React, Next.js, C#, Terraform, CI/CD",
-    personal: "SaaS products, automation, AI agents",
-  },
-  architecture: ["IaC", "shared infra", "independent deploys", "planning-first workflows"],
-  currently: "Building MenuLoft, a SaaS platform for restaurant digital menu management",
-  portfolio: "https://www.jersal.net",
-};
-```
+Ever since agentic workflows appeared I have been pushing automation even slightly unreasonably. I trust the agents sometimes too much, but with intention.
+
+The Jersal repository family is my personal framework for keeping up with the changing world of AI, understanding the capabilities firsthand, and testing where the limits actually are. Consider it a not so serious playground to push and benchmark AI assisted development, while keeping strict processes and manual workflows in place elsewhere. The goal is to find out just how far this can go.
+
+I am a full stack developer and infrastructure engineer from Turku, Finland. This ecosystem reflects my current interests: agentic workflows, AI assisted development, infrastructure as code, and practical automation that actually ships.
 
 ---
 
-### Languages
+### Current stack
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=csharp&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![Shell](https://img.shields.io/badge/Shell-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
-![HCL](https://img.shields.io/badge/HCL-7B42BC?style=flat-square&logo=terraform&logoColor=white)
+**PI** ![PI](https://img.shields.io/badge/PI-000?style=flat-square)
+Workflow harness for agentic development. It connects model providers to development tasks and orchestrates the entire AI assisted workflow. I chose it because it gives me direct control over how agents operate while staying out of the way.
 
-### Frontend
+**DeepSeek V4 Flash** ![DeepSeek V4 Flash](https://img.shields.io/badge/DeepSeek_V4_Flash-4F6BFF?style=flat-square)
+My goto model for day to day AI assisted development. Extremely cheap per token while still delivering quality results. It is the default model I reach for when working through the harness.
 
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+**OpenCode GO** ![OpenCode GO](https://img.shields.io/badge/OpenCode_GO-000?style=flat-square)
+Model provider that handles API access to DeepSeek and other models. It slots into the PI workflow seamlessly without extra friction.
 
-### Backend & Data
+**Azure** ![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+Deployment infrastructure for everything that needs to run. Reliable, has good Terraform support, and covers the full stack from databases to container hosting.
 
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+Everything else depends on what fits the project.
 
-### Cloud & DevOps
+### Repositories
 
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+**Core**
 
----
+| Name | Repository | Visibility | Description |
+|---|---|---|---|
+| Core Infrastructure | jersal-projects-core | Public | Shared Azure infrastructure, PostgreSQL, RBAC, portfolio site |
+| Project Template | jersal-project-template | Public | Project scaffolding, planning first workflow, CI templates |
 
-### Featured Project
+Infrastructure managed with Terraform, deployed via GitHub Actions with OIDC and isolated state backends.
 
-**[MenuLoft](https://menuloft.app)** — Digital menu management SaaS for multi-location restaurants. Create menus, sync to QR codes, embed on websites, schedule with timezone-aware rules, and manage teams with role-based access.
+**Projects**
 
-<p>
-  <img src="https://img.shields.io/badge/Next.js_16-000?style=flat-square&logo=nextdotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS_4-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" />
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white" />
-  <img src="https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white" />
-  <img src="https://img.shields.io/badge/Vercel-000?style=flat-square&logo=vercel&logoColor=white" />
-  <img src="https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white" />
-  <img src="https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white" />
-</p>
-
----
-
-### The Jersal Ecosystem
-
-Outside of work I maintain a personal development ecosystem called **Jersal**, built around a few core principles: shared infrastructure, independent deployments, consistent standards, and git as the source of truth.
-
-| Repository | Purpose |
-|---|---|
-| **[jersal-projects-core](https://github.com/Jeqqe/jersal-projects-core)** | Shared Azure infrastructure (PostgreSQL, RBAC), portfolio site, documentation hub |
-| **[jersal-project-template](https://github.com/Jeqqe/jersal-project-template)** | Standardized project scaffolding with planning-first workflow and CI templates |
-| **jersal-menuloft** | MenuLoft SaaS application |
-
-Infrastructure is fully managed with **Terraform**, deployed through **GitHub Actions** using **OIDC** (zero stored credentials), with isolated state backends per concern.
-
-
+| Name | Repository | Visibility | URL |
+|---|---|---|---|
+| Stock Analyst | jersal-stock-analyst | Private | Coming soon |
+| Fitness Assistant | jersal-fitness-assistant | Private | Coming soon |
