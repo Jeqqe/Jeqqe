@@ -37,7 +37,7 @@ Everything else depends on what fits the project.
 
 **Core**
 
-| Name | Repository | Visibility | Description |
+| Name | Repository | Visibility |
 |---|---|---|---|
 | Core Infrastructure | jersal-projects-core | Public |
 | Project Template | jersal-project-template | Public |
