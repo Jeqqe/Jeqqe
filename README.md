@@ -39,8 +39,8 @@ Everything else depends on what fits the project.
 
 | Name | Repository | Visibility | Description |
 |---|---|---|---|
-| Core Infrastructure | jersal-projects-core | Public | Shared Azure infrastructure, PostgreSQL, RBAC, portfolio site |
-| Project Template | jersal-project-template | Public | Project scaffolding, planning first workflow, CI templates |
+| Core Infrastructure | jersal-projects-core | Public |
+| Project Template | jersal-project-template | Public |
 
 Infrastructure managed with Terraform, deployed via GitHub Actions with OIDC and isolated state backends.
 
